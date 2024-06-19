@@ -20,3 +20,12 @@ python3 compileModule.py build_ext --inplace
 >    17 | #warning "Using deprecated NumPy API, disable it with " \
 >       |  ^~~~~~~
 > ```
+
+### Run
+> ```
+> ModuleNotFoundError: No module named 'tkinter
+> ```
+
+```
+sudo apt-get install python3-tk
+```
