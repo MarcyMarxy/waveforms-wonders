@@ -23,7 +23,7 @@ python3 compileModule.py build_ext --inplace
 
 ### Run
 > ```
-> ModuleNotFoundError: No module named 'tkinter
+> ModuleNotFoundError: No module named 'tkinter'
 > ```
 
 ```
