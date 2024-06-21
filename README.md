@@ -29,3 +29,24 @@ python3 compileModule.py build_ext --inplace
 ```
 sudo apt-get install python3-tk
 ```
+
+> ```
+> Traceback (most recent call last):
+>   File "/home/pi/asp/sms-tools/software/transformations_interface/transformations_GUI.py", line 14, in <module>
+>     root = Tk()
+>   File "/usr/lib/python3.10/tkinter/__init__.py", line 2299, in __init__
+>     self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+> _tkinter.TclError: no display name and no $DISPLAY environment variable
+> ```
+
+*For WSL1*
+install vcxsrv
+solution: https://github.com/PySimpleGUI/PySimpleGUI/issues/4703#issuecomment-917323918
+```
+export DISPLAY=localhost:0.0
+```
+
+#### hit play
+> ```
+> FileNotFoundError: [Errno 2] No such file or directory: 'aplay'
+> ```
