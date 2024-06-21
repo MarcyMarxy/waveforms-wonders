@@ -39,9 +39,9 @@ sudo apt-get install python3-tk
 > _tkinter.TclError: no display name and no $DISPLAY environment variable
 > ```
 
-*For WSL1*
-install vcxsrv
-solution: https://github.com/PySimpleGUI/PySimpleGUI/issues/4703#issuecomment-917323918
+*For WSL1*<br>
+install vcxsrv<br>
+solution: https://github.com/PySimpleGUI/PySimpleGUI/issues/4703#issuecomment-917323918<br>
 ```
 export DISPLAY=localhost:0.0
 ```
